@@ -7,7 +7,9 @@ int main ()
 	printf("Type a number(3-10 000): ");
 	scanf("%d",&num);
 	
-	if(num<3)
+	while(num!=1)
+	{
+		if(num<3)
 	{
 		printf("You typed wrong number.");
 	}
@@ -24,5 +26,7 @@ int main ()
 	{
 		b=(num*3)+1;
 		printf("%d",b);
+	}
+	return 0;
 	}
 }
