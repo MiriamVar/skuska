@@ -2,7 +2,7 @@
 
 int main ()
 {
-	int num,a,b;
+	int num,i;
 	
 	printf("Type a number(3-10 000): ");
 	scanf("%d",&num);
