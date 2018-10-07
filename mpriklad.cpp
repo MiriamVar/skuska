@@ -7,17 +7,17 @@ int main ()
 	printf("Type a number(3-10 000): ");
 	scanf("%d",&num);
 	
+	if(num<3)
+	{
+		printf("You typed wrong number.");
+	}
+	if(num>10000)
+	{
+		printf("You typed wrong number.");
+	}
 	while(num!=1)
 	{
-		if(num<3)
-	{
-		printf("You typed wrong number.");
-	}
-	else if(num>10000)
-	{
-		printf("You typed wrong number.");
-	}
-	else if(num%2==0)
+		if(num%2==0)
 	{
 		a=num/2;
 		printf("%d",a);
